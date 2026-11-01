@@ -67,9 +67,11 @@
     - repo: fairshift
       description: Fair sports sub rotation and game stats for coaches. Runs entirely in your browser.
       language: TypeScript
+      site: https://jesserockz.github.io/fairshift/
     - repo: sudoku
       description: Self-hosted daily Sudoku for a small group, with an offline PWA and a per-day leaderboard.
       language: TypeScript
+      site: https://jesserockz.github.io/sudoku/
     - repo: little-videos
       description: A local-only, offline video player for toddlers.
       language: Java
