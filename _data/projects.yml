@@ -1,0 +1,78 @@
+# Sections and project cards shown on the home page, in order.
+#
+# Each section:
+#   title:     heading of the section
+#   projects:  list of project cards
+#
+# Each project:
+#   repo:         (required) repo name under github.com/jesserockz, used as the card name and link
+#   description:  short text shown on the card
+#   language:     main language, shown as a tag
+#   site:         (optional) URL, adds a "Site" link
+#   pypi:         (optional) URL, adds a "PyPI" link
+#   url:          (optional) overrides the GitHub link, for repos outside jesserockz
+- title: ESPHome
+  projects:
+    - repo: network-toolbox
+      description: ESPHome firmware for handheld network test gear. Plug into an unknown network and see the link, lease, addressing and reachability it gives you.
+      language: C++
+      site: https://jesserockz.github.io/network-toolbox/
+    - repo: paper-calendar
+      description: A battery powered Home Assistant calendar for e-paper displays, built with ESPHome.
+      language: YAML
+      site: https://jesserockz.github.io/paper-calendar/
+    - repo: wizmote-esphome
+      description: ESPHome components to receive WiZmote ESP-NOW button presses and forward them to Home Assistant.
+      language: C++
+    - repo: esphome-components
+      description: A collection of custom external components for ESPHome.
+      language: C++
+    - repo: esphome-configs
+      description: My personal ESPHome config files.
+      language: YAML
+    - repo: firmware
+      description: Rolling release (ESPHome dev) firmware for devices I personally use.
+      language: YAML
+
+- title: Home Assistant
+  projects:
+    - repo: home-assistant-akahu
+      description: Home Assistant integration for akahu.nz.
+      language: Python
+    - repo: love2learn-elmo
+      description: Control a Playskool Love2Learn Elmo toy from Home Assistant over Bluetooth LE.
+      language: Python
+
+- title: Libraries and tools
+  projects:
+    - repo: aiosolax-uart
+      description: Async library to read SolaX inverters over UART (Pocket USB protocol).
+      language: Python
+      pypi: https://pypi.org/project/aiosolax-uart/
+    - repo: riden-modbus
+      description: Read and control Riden RD60xx power supplies over Modbus.
+      language: Python
+      site: https://jesserockz.github.io/riden-modbus/
+    - repo: od-badge
+      description: Conference name badge for the OpenDisplay 2.9" e-paper tag, with a Web Bluetooth browser app and NFC vCard.
+      language: JavaScript
+      site: https://jesserockz.github.io/od-badge/
+    - repo: flipperzero-firmware-builds
+      description: Automated Flipper Zero firmware builds.
+      language: Handlebars
+      site: https://jesserockz.github.io/flipperzero-firmware-builds/
+
+- title: Apps and fun
+  projects:
+    - repo: fairshift
+      description: Fair sports sub rotation and game stats for coaches. Runs entirely in your browser.
+      language: TypeScript
+    - repo: sudoku
+      description: Self-hosted daily Sudoku for a small group, with an offline PWA and a per-day leaderboard.
+      language: TypeScript
+    - repo: little-videos
+      description: A local-only, offline video player for toddlers.
+      language: Java
+    - repo: Apollo-M-1-Brackets
+      description: 3D printable brackets to join Apollo Automation M-1 LED matrix panels.
+      language: STL

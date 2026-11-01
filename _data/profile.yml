@@ -1,0 +1,9 @@
+title: Jesse Hills
+description: Jesse Hills - developer working on ESPHome, based in Wellington, New Zealand. Open source projects and tools.
+name: Jesse Hills
+avatar: https://github.com/jesserockz.png
+# HTML is allowed here and rendered unescaped.
+tagline: 'Developer working on <a href="https://esphome.io">ESPHome</a>, based in Wellington, New Zealand.'
+links:
+  - title: GitHub
+    url: https://github.com/jesserockz
